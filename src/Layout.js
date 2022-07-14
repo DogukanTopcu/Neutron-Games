@@ -1,4 +1,5 @@
 import React from 'react';
+import "./index.css"
 
 import {Outlet} from "react-router-dom";
 import Footer from './components/Footer/Footer';
@@ -8,7 +9,9 @@ const Layout = () => {
   return (
     <div>
         <Navbar />
-        <Outlet />
+        <div className='outlet'>
+          <Outlet />
+        </div>
         <Footer />
     </div>
   )
