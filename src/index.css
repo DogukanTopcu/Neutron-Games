@@ -16,3 +16,13 @@ code {
   /* color: white; */
   min-height: 100vh;
 }
+
+.container {
+  max-width: 1500px;
+  margin: auto;
+}
+
+@font-face {
+  font-family: "Nabla";
+  src: url("./assets/fonts/Nabla-Regular-VariableFont_EDPT\,EHLT.ttf");
+}
