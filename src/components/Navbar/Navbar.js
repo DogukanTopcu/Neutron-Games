@@ -30,7 +30,7 @@ const Navbar = () => {
                     <Link className='navbar_right_content_link' to="" >Blogs</Link>
                     <Link className='navbar_right_content_link' to="" >Community</Link>
                 </div>
-                    <button className='navbar_right_content_donate'><OfflineBoltIcon className="donate_thunder" />Donate</button>
+                <button className='navbar_right_content_donate'><OfflineBoltIcon fontSize='48px' className="donate_thunder" />Donate</button>
             </div>
         </div>
     </div>
