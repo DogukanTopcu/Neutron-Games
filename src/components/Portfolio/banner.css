@@ -2,6 +2,8 @@
     background-color: #9e005d;
     height: 100vh;
     width: 100vw;
+
+    /* background-image: url("../../assets/16-9.png"); */
 }
 
 
@@ -19,6 +21,8 @@
     justify-content: flex-start;
     margin-top: 50px;
 
+    z-index: 10;
+
     /* margin-left: 50px; */
 }
 .games {
@@ -28,5 +32,30 @@
     justify-content: flex-end;
     margin-top: -130px;
 
+    z-index: 10;
+
     /* margin-right: 50px; */
+}
+
+
+.triangles {
+    position: fixed;
+}
+
+.yellowTriangle {
+    position: fixed;
+    right: -500px;
+    bottom: 0px;
+    z-index: 2;
+    
+    height: 1500px;
+}
+
+.greenTriangle {
+    position: fixed;
+    left: 50px;
+    bottom: 0px;
+    z-index: 1;
+
+    height: 1500px;
 }
