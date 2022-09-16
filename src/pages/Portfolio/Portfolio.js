@@ -35,11 +35,9 @@ const Portfolio = () => {
 
 
     // Banner text magic
-    Neutron.style.transform = `translateX(-${window.pageYOffset * 2}px)`;
-    Neutron.style.transition = "0.8s";
+    Neutron.style.transform = `translateX(${window.pageYOffset * -2}px)`;
 
     Games.style.transform = `translateX(${window.pageYOffset * 2}px)`;
-    Games.style.transition = "0.8s";
 
 
   }, [scrollY]);
