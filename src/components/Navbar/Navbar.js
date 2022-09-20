@@ -26,6 +26,7 @@ const Navbar = () => {
         <div className='navbar_right'>
             <div className='navbar_right_content'>
                 <div className='navbar_right_content_links'>
+                    <Link className='navbar_right_content_link' to="" >Portfolio</Link>
                     <Link className='navbar_right_content_link' to="" >Games</Link>
                     <Link className='navbar_right_content_link' to="" >Blogs</Link>
                     <Link className='navbar_right_content_link' to="" >Community</Link>

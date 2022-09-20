@@ -40,6 +40,7 @@
 
 .triangles {
     position: fixed;
+    z-index: 1;
 }
 
 .yellowTriangle {
@@ -58,4 +59,74 @@
     z-index: 1;
 
     height: 1500px;
+}
+
+
+
+.banner-first-text {
+    position: fixed;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    opacity: 0;
+    font-size: 48px;
+    z-index: 3;
+
+
+    color: #fff;
+    
+}
+
+.banner-second-content {
+    
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 38px;
+    width: 500px;
+    margin: auto;
+
+    opacity: 0;
+    z-index: 1;
+}
+.banner-second-content h2 {
+    color: #fff;
+}
+
+.discover-our-games-button {
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+
+    font-size: 24px;
+    max-width: 150px;
+    min-height: 150px;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+
+    border: 3px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+
+    transition: 0.3s;
+}
+
+.discover-our-games-button:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: none;
 }

@@ -13,9 +13,27 @@ const Banner = () => {
           <div className='games'>Games</div>
 
           <div className='triangles'>
+            <h2 className='banner-first-text'>We are Game Designer</h2>
+            <div className='banner-second-content'>
+              <h2>Did someone say Game?</h2>
+
+              {/* <img className='banner-img-format bannerImg-one' src={} />
+              <img className='banner-img-format bannerImg-two' src={} />
+              <img className='banner-img-format bannerImg-three' src={} />
+              <img className='banner-img-format bannerImg-four' src={} />
+              <img className='banner-img-format bannerImg-five' src={} /> */}
+
+              <div className='discover-our-games-button'>
+                <p>Discover Our Games</p>
+              </div>
+            </div>
+            
             <img src={GreenTriangle} className="greenTriangle" />
             <img src={YellowTriangle} className="yellowTriangle" />
+            
           </div>
+
+          
       </div>
     </div>
   )
