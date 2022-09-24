@@ -123,6 +123,8 @@
     border-radius: 50%;
 
     transition: 0.3s;
+
+    z-index: 11;
 }
 
 .discover-our-games-button:hover {
