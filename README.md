@@ -1,3 +1,7 @@
+## About the Website:
+I had a game developer team and we were developing some games for fun. We have lots of good games and I want to develop a funny website for our games. It wasn't end but I'm leaving it here because I like how it looks.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
